@@ -3,7 +3,7 @@ body{
     font-family: 'Fraunces', serif;
 }
 #main1{
-    background-image: url(/desktop/image-header.jpg);
+    background-image: url(desktop/image-header.jpg);
     background-size: cover;
     width: 100vw;
     height: 700px;
@@ -153,13 +153,13 @@ body{
     letter-spacing: 4px;
 }
 #main3{
-    background-image: url(/desktop/image-transform.jpg);
+    background-image: url(desktop/image-transform.jpg);
     width: 49.22vw;
     height: 600px;
     display: inline-block;
 }
 #main4{
-    background-image: url(/desktop/image-stand-out.jpg);
+    background-image: url(desktop/image-stand-out.jpg);
     width: 49.22vw;
     height: 600px;
     display: inline-block;
@@ -173,7 +173,7 @@ body{
     display: inline-block;
 }
 #main6{
-    background-image: url(/desktop/image-graphic-design.jpg);
+    background-image: url(desktop/image-graphic-design.jpg);
     width: 49.22vw;
     height: 600px;
     display: inline-block;
@@ -182,7 +182,7 @@ body{
     padding-right: 0px;
 }
 #main7{
-    background-image: url(/desktop/image-photography.jpg);
+    background-image: url(desktop/image-photography.jpg);
     width: 49.22vw;
     height: 600px;
     display: inline-block;
@@ -242,7 +242,7 @@ body{
     margin-top: -4px;
 }
 #main9{
-    background-image: url(/desktop/image-gallery-milkbottles.jpg);
+    background-image: url(desktop/image-gallery-milkbottles.jpg);
     background-size: cover;
     width: 24.46vw;
     height: 400px;
@@ -252,7 +252,7 @@ body{
     right: -4px;
 }
 #main10{
-    background-image: url(/desktop/image-gallery-orange.jpg);
+    background-image: url(desktop/image-gallery-orange.jpg);
     background-size: cover;
     width: 24.46vw;
     height: 400px;
@@ -262,7 +262,7 @@ body{
     left: 1px;
 }
 #main11{
-    background-image: url(/desktop/image-gallery-cone.jpg);
+    background-image: url(desktop/image-gallery-cone.jpg);
     background-size: cover;
     width: 24.46vw;
     height: 400px;
@@ -272,7 +272,7 @@ body{
     left: -2px;
 }
 #main12{
-    background-image: url(/desktop/image-gallery-sugarcubes.jpg);
+    background-image: url(desktop/image-gallery-sugarcubes.jpg);
     background-size: cover;
     width: 24.46vw;
     height: 400px;
