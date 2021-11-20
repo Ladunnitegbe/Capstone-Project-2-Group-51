@@ -4,10 +4,10 @@ body{
 }
 #main1{
     background-image: url(images/desktop/image-header.jpg);
-    background-size: cover;
+    background-size:cover;
     width: 100vw;
     height: 700px;
-    position: relative;
+    position: static;
     display: inline-block;
 }
 #logo1{
@@ -49,6 +49,21 @@ body{
     top: 38%;
     left: 40%;
 }
+/** for the nav bar **/
+
+.bg-color{
+    background-color: skyblue !important;
+}
+.btn{
+    border-radius: 15px !important;
+    width: 5rem;
+    background-color: white !important;
+    color: black !important;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 1px skyblue !important;
+}
+
+
 #footer-item{
     margin-right: 42px;
     color: hsl(167, 40%, 24%);
@@ -56,10 +71,10 @@ body{
     font-family: 'Barlow', sans-serif;
 }
 #landing-page-title{
-    position: absolute;
+    position: fixed;
     top: 150px;
-    left: 26%;
-    font-size: 28px;
+    left: 40%;
+    font-size: 1rem;
     letter-spacing: 6px;
     color: white;
 }
