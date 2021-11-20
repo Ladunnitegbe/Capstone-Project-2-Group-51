@@ -6,26 +6,60 @@
     <title>Sunnyside Agency</title>
     <link rel="stylesheet" href="project2.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
+    <header>
+        <div class="" id="nav">
+            
+            <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-color  pt-2">
+                <a class="navbar-brand d-inline-flex" href="#">
+                    <img src="images/logo.svg" alt="sunnyside-logo" width="130" height="20" class="d-inline-block align-top" alt="">
+                </a>
+            
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse font-weight-bolder" id="navbarCollapse">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item mx-auto"> 
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item mx-auto"> 
+                            <a href="#" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item mx-auto"> 
+                            <a href="#" class="nav-link">Project</a>
+                        </li>
+                        <li class="nav-item mx-auto"> 
+                            <button type="submit"class="btn btn-success mb-1">Contact</button>
+                        </li>
+                    </ul>
+                        
+                </div> 
+        
+            </nav>
+
+        </div>
+
+    </header>
     <div id="main1">
         <div id="logo1">
-            <img src="images/logo.svg" alt="sunnyside-logo">
+            
         </div>
-        <div id="nav">
-            <span id="nav-item">About</span>
-            <span id="nav-item">Services</span>
-            <span id="nav-item">Pojects</span>
-            <input id="nav-button"type="button" value="CONTACT">
-        </div>
-        <div id="landing-page-title">
-            <h1>WE ARE CREATIVES</h1>
-        </div>
-        <div id="arrow-down">
-            <img src="images/icon-arrow-down.svg" alt="arrow-down">        
-        </div>
+        
+    </div>
+
+
+    <div id="landing-page-title" class="container container-fluid container-sm">
+        <h1>WE ARE CREATIVES</h1>
+    </div>
+    <div id="arrow-down" class="">
+        <img src="images/icon-arrow-down.svg" alt="arrow-down">        
     </div>
     
     <div id="main2">
@@ -148,5 +182,7 @@
             <img id="footer-icon" src="images/icon-pinterest.svg" alt="pinterest">
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="bootstrap.js"></script>
 </body>
 </html>
