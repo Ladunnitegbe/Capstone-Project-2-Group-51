@@ -23,7 +23,7 @@ body{
     left: 44%;
 }
 #logo22{
-    color: hsl(167, 40%, 24%);
+    filter: invert(54%) sepia(96%) saturate(273%) hue-rotate(94deg) brightness(80%) contrast(95%);
 }
 #nav{
     display: inline-block;
@@ -43,6 +43,16 @@ body{
     border-radius: 18px;
     border: none;
     font-weight: bolder;
+    color: hsl(198, 62%, 26%);
+    background-color: white;
+}
+#nav-button:hover{
+    color: white;
+    background-color: rgba(118, 199, 236, 0.7);
+}
+#nav-item:hover{
+    cursor: pointer;
+    color: hsl(198, 62%, 26%);
 }
 #footer-nav{
     position: absolute;
@@ -105,8 +115,14 @@ body{
     opacity: 0.6;
 }
 #learn-more{
-    font-size: 18px;
-    text-decoration: underline hsl(51, 100%, 49%) 2px;
+    font-size: 16px;
+    text-decoration: underline hsl(50, 89%, 75%) 6px;
+    letter-spacing: 1px;
+}
+#learn-more:hover{
+    cursor: pointer;
+    text-decoration: underline hsl(51, 100%, 49%) 6px;
+
 }
 #main4-title{
     position: absolute;
@@ -123,8 +139,13 @@ body{
     opacity: 0.6;
 }
 #learn-more2{
-    font-size: 18px;
-    text-decoration: underline hsl(7, 99%, 70%) 2px;
+    font-size: 16px;
+    text-decoration: underline hsl(7, 96%, 82%) 6px;
+    letter-spacing: 1px;
+}
+#learn-more2:hover{
+    cursor: pointer;
+    text-decoration: underline hsl(7, 99%, 70%) 6px;
 }
 #main6-title{
     position: absolute;
@@ -311,3 +332,14 @@ footer{
 #footer-icon{
     margin-right: 16px;
 }
+#footer-item:hover{
+    color: white;
+    cursor: pointer;
+}
+#footer-icon:hover{
+    color: white;
+    cursor: pointer;
+    filter:  brightness(0) invert(1);
+}
+
+
