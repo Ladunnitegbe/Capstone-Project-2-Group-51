@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    font-family: 'Fraunces', serif;
+}
+#main1{
+    background-image: url(/desktop/image-header.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 700px;
+    position: relative;
+    display: inline-block;
+}
+#logo1{
+    display: inline-block;
+    position: absolute;
+    top: 36px;
+    margin-left: 42px;
+}
+#nav{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 26px;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+}
+#nav-item{
+    margin-right: 42px;
+    color: white;
+}
+#nav-button{
+    margin-right: 42px;
+    padding: 14px 20px;
+    border-radius: 18px;
+    border: none;
+    font-weight: bolder;
+}
+#landing-page-title{
+    position: absolute;
+    top: 150px;
+    left: 26%;
+    font-size: 28px;
+    letter-spacing: 6px;
+    color: white;
+}
+#arrow-down{
+    position: absolute;
+    top: 46%;
+    left: 49%;
+}
+#main2{
+    background-color: white;
+    width: 49.22vw;
+    height: 500px;
+    display: inline-block;
+    position: relative;
+}
+#main2-title{
+    position: absolute;
+    top: 15px;
+    left: 20%;
+    font-size: 28px;
+    width: 400px;
+}
+#main2-desc{
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+#learn-more{
+    font-size: 18px;
+    text-decoration: underline hsl(51, 100%, 49%) 2px;
+}
+#main3{
+    background-image: url(/desktop/image-transform.jpg);
+    width: 49.22vw;
+    height: 600px;
+    display: inline-block;
+}
+#main4{
+    background-image: url(/desktop/image-stand-out.jpg);
+    width: 49.22vw;
+    height: 600px;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+}
+#main5{
+    background-color: white;
+    width: 49.22vw;
+    height: 500px;
+    display: inline-block;
+}
+#main6{
+    background-image: url(/desktop/image-graphic-design.jpg);
+    width: 49.22vw;
+    height: 600px;
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    padding-right: 0px;
+}
+#main7{
+    background-image: url(/desktop/image-photography.jpg);
+    width: 49.22vw;
+    height: 600px;
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    left: -4px;
+}
+#main8{
+    background-color: white;
+    width: 100vw;
+    height: 600px;
+    display: inline-block;
+}
+#main9{
+    background-image: url(/desktop/image-gallery-milkbottles.jpg);
+    background-size: cover;
+    width: 24.46vw;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    right: -4px;
+}
+#main10{
+    background-image: url(/desktop/image-gallery-orange.jpg);
+    background-size: cover;
+    width: 24.46vw;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    left: 1px;
+}
+#main11{
+    background-image: url(/desktop/image-gallery-cone.jpg);
+    background-size: cover;
+    width: 24.46vw;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    left: -2px;
+}
+#main12{
+    background-image: url(/desktop/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    width: 24.46vw;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    left: -6px; 
+}
+footer{
+    width: 100vw;
+    height: 350px;
+    background-color: hsl(168, 34%, 41%);
+    position: relative;
+    top: -8px;
+}
+
