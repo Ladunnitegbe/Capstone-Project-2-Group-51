@@ -39,7 +39,7 @@ body{
 }
 #nav-button{
     margin-right: 42px;
-    padding: 14px 20px;
+    padding: 14px 25px;
     border-radius: 18px;
     border: none;
     font-weight: bolder;
@@ -66,7 +66,7 @@ body{
 }
 .btn{
     border-radius: 15px !important;
-    width: 5rem;
+    width: 10rem;
     background-color: white !important;
     color: black !important;
     font-family: 'Times New Roman', Times, serif;
@@ -84,11 +84,12 @@ body{
 .column{
     display: grid;
     gap: 0px 0px 0px 0px;
-    width: 25%;
-    grid-template-columns: auto auto auto auto;
-    
+    width: 15%;
+    grid-template-columns: auto auto auto auto;   
 }
-
+h2{
+    font-family: 'Fraunces', serif;
+}
 .row:after {
     content: "";
     display: table;
@@ -105,10 +106,12 @@ body{
 #landing-page-title{
     position: absolute;
     top: 150px;
-    left: 35%;
-    font-size: 1rem;
+    left: 32%;
+    font-size: 36px;
     letter-spacing: 6px;
     color: white;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
 }
 #arrow-down{
     position: absolute;
@@ -303,7 +306,7 @@ body{
     background-image: url(images/desktop/image-gallery-milkbottles.jpg);
     background-size: cover;
     width: 24.46vw;
-    height: 400px;
+    height: 600px;
     display: inline-block;
     position: relative;
     top: -4px;
@@ -313,7 +316,7 @@ body{
     background-image: url(images/desktop/image-gallery-orange.jpg);
     background-size: cover;
     width: 24.46vw;
-    height: 400px;
+    height: 600px;
     display: inline-block;
     position: relative;
     top: -4px;
@@ -323,17 +326,17 @@ body{
     background-image: url(images/desktop/image-gallery-cone.jpg);
     background-size: cover;
     width: 24.46vw;
-    height: 400px;
+    height: 600px;
     display: inline-block;
     position: relative;
     top: -4px;
-    left: -2px;
+    left: -4px;
 }
 #main12{
     background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
     background-size: cover;
     width: 24.46vw;
-    height: 400px;
+    height: 600px;
     display: inline-block;
     position: relative;
     top: -4px;
