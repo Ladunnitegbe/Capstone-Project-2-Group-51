@@ -39,7 +39,7 @@ body{
 }
 #nav-button{
     margin-right: 42px;
-    padding: 20px 25px;
+    padding: 14px 20px;
     border-radius: 18px;
     border: none;
     font-weight: bolder;
@@ -66,7 +66,7 @@ body{
 }
 .btn{
     border-radius: 15px !important;
-    width: 5rem;
+    width: 8rem;
     background-color: white !important;
     color: black !important;
     font-family: 'Times New Roman', Times, serif;
