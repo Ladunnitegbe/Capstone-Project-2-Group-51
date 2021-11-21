@@ -38,11 +38,11 @@ body{
     color: white;
 }
 #nav-button{
-    margin-right: 42px;
+    margin-right: 45px;
     padding: 14px 20px;
     border-radius: 18px;
     border: none;
-    font-weight: bold;
+    font-weight: bolder;
     color: hsl(198, 62%, 26%);
     background-color: white;
 }
