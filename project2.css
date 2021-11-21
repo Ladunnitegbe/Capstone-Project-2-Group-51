@@ -62,7 +62,7 @@ body{
 /** for the nav bar **/
 
 .bg-color{
-    background-color: skyblue !important;
+    background-color: rgba(118, 199, 236, 0);
 }
 .btn{
     border-radius: 15px !important;
