@@ -72,6 +72,10 @@ body{
     font-family: 'Times New Roman', Times, serif;
     border: solid 1px skyblue !important;
 }
+.btn:hover{
+    background-color: rgba(118, 199, 236, 0.7) !important;
+    color: white !important;    
+}
 .grid{
     display: grid;
     gap: 0px 0px;
