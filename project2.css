@@ -99,7 +99,7 @@ body{
     font-family: 'Barlow', sans-serif;
 }
 #landing-page-title{
-    position: fixed;
+    position: absolute;
     top: 150px;
     left: 40%;
     font-size: 1rem;
