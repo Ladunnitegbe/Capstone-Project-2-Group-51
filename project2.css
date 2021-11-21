@@ -72,6 +72,24 @@ body{
     font-family: 'Times New Roman', Times, serif;
     border: solid 1px skyblue !important;
 }
+.grid{
+    display: grid;
+    gap: 0px 0px;
+    grid-template-columns: auto auto;
+}
+.column{
+    display: grid;
+    gap: 0px 0px 0px 0px;
+    width: 25%;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 
 #footer-item{
@@ -102,7 +120,7 @@ body{
 }
 #main2-title{
     position: absolute;
-    top: 15px;
+    top: 40%;
     left: 20%;
     font-size: 28px;
     width: 400px;
@@ -126,8 +144,8 @@ body{
 }
 #main4-title{
     position: absolute;
-    top: 110px;
-    left: 820px;
+    top: 30%;
+    left: 120%;
     font-size: 28px;
     width: 400px;
 }
