@@ -85,10 +85,11 @@ body{
     display: grid;
     gap: 0px 0px 0px 0px;
     width: 25%;
-    grid-template-columns: auto auto auto auto;
-    
+    grid-template-columns: auto auto auto auto;   
 }
-
+h2{
+    font-family: 'Fraunces', serif;
+}
 .row:after {
     content: "";
     display: table;
@@ -105,8 +106,8 @@ body{
 #landing-page-title{
     position: absolute;
     top: 150px;
-    left: 35%;
-    font-size: 28px;
+    left: 32%;
+    font-size: 36px;
     letter-spacing: 6px;
     color: white;
     font-family: 'Fraunces', serif;
