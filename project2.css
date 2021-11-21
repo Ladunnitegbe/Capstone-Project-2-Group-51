@@ -84,7 +84,7 @@ body{
 .column{
     display: grid;
     gap: 0px 0px 0px 0px;
-    width: 25%;
+    width: 20%;
     grid-template-columns: auto auto auto auto;   
 }
 h2{
