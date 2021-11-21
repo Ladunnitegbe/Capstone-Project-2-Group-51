@@ -308,7 +308,7 @@ h2{
     width: 24.46vw;
     height: 200px;
     display: inline-block;
-    position: relative;
+    position: absolute;
     top: -4px;
     right: -4px;
 }
@@ -318,7 +318,7 @@ h2{
     width: 24.46vw;
     height: 200px;
     display: inline-block;
-    position: relative;
+    position: absolute;
     top: -4px;
     left: -4px;
 }
@@ -328,7 +328,7 @@ h2{
     width: 24.46vw;
     height: 200px;
     display: inline-block;
-    position: relative;
+    position: absolute;
     top: -4px;
     left: -4px;
 }
@@ -338,7 +338,7 @@ h2{
     width: 24.46vw;
     height: 200px;
     display: inline-block;
-    position: relative;
+    position: absolute;
     top: -4px;
     left: -4px; 
 }
