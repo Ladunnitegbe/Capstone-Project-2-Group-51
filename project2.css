@@ -42,7 +42,7 @@ body{
     padding: 14px 20px;
     border-radius: 18px;
     border: none;
-    font-weight: bolder;
+    font-weight: bold;
     color: hsl(198, 62%, 26%);
     background-color: white;
 }
