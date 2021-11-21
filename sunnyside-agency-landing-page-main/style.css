@@ -1,0 +1,17 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0px;
+}
+.item1{
+    display:block;
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+}
+
