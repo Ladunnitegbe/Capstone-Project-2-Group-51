@@ -308,7 +308,7 @@ h2{
     width: 24.46vw;
     height: 200px;
     display: inline-block;
-    position: absolute;
+    position: relative;
     top: -4px;
     right: -4px;
 }
@@ -318,9 +318,9 @@ h2{
     width: 24.46vw;
     height: 200px;
     display: inline-block;
-    position: absolute;
+    position: relative;
     top: -4px;
-    left: -4px;
+    left: 1px;
 }
 #main11{
     background-image: url(images/desktop/image-gallery-cone.jpg);
@@ -328,7 +328,7 @@ h2{
     width: 24.46vw;
     height: 200px;
     display: inline-block;
-    position: absolute;
+    position: relative;
     top: -4px;
     left: -4px;
 }
@@ -338,9 +338,9 @@ h2{
     width: 24.46vw;
     height: 200px;
     display: inline-block;
-    position: absolute;
+    position: relative;
     top: -4px;
-    left: -4px; 
+    left: -6px; 
 }
 footer{
     width: 100vw;
