@@ -22,9 +22,11 @@ body{
     top: 20%;
     left: 44%;
 }
+
 #logo22{
     filter: invert(54%) sepia(96%) saturate(273%) hue-rotate(94deg) brightness(80%) contrast(95%);
 }
+
 #nav{
     display: inline-block;
     position: absolute;
@@ -106,13 +108,27 @@ h2{
 #landing-page-title{
     position: absolute;
     top: 150px;
-    left: 32%;
+    left: 40%;
     font-size: 36px;
     letter-spacing: 6px;
     color: white;
     font-family: 'Fraunces', serif;
     font-weight: 900;
 }
+@media only screen and (max-width: 576px){
+    #landing-page-title{
+        position: absolute;
+        top: 150px;
+        left: 5%;
+        font-size: 36px;
+        letter-spacing: 6px;
+        color: white;
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+        text-align: center;
+    }
+}
+
 #arrow-down{
     position: absolute;
     top: 46%;
@@ -125,6 +141,26 @@ h2{
     display: inline-block;
     position: relative;
 }
+@media only screen and (max-width: 576px){
+    .row1{
+        display:block;
+    }
+    #main2{
+        background-color: white;
+        width: 100vw;
+        height: 500px;
+        display: block;
+        position: relative;
+    }
+    #main3{
+        background-image: url(images/desktop/image-transform.jpg);
+        width: 100vw;
+        height: 100px;
+        display: block;
+    }
+    
+}
+
 #main2-title{
     position: absolute;
     top: 40%;
@@ -132,6 +168,18 @@ h2{
     font-size: 28px;
     width: 400px;
 }
+@media only screen and (max-width: 576px){
+    #main2-title{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        font-size: 28px;
+        width: 400px;
+        z-index: 70;
+        text-align: center;
+    }
+}
+
 #main2-desc{
     font-weight: 600;
     font-family: 'Barlow', sans-serif;
@@ -155,6 +203,19 @@ h2{
     left: 120%;
     font-size: 28px;
     width: 400px;
+    z-index: 70;
+}
+
+@media only screen and (max-width: 576px){
+    #main4-title{
+        position: absolute;
+        top: 120%;
+        left: 15%;
+        font-size: 28px;
+        width: 400px;
+        z-index: 70;
+        text-align: center;
+    }
 }
 #main4-desc{
     font-weight: 600;
@@ -182,6 +243,19 @@ h2{
     text-align: center;
     color: hsl(167, 40%, 24%);
 }
+
+@media only screen and (max-width: 576px){
+    #main6-title{
+        position: absolute;
+        top: 350px;
+        left: 15%;
+        font-size: 20px;
+        width: 400px;
+        z-index: 5;
+        text-align: center;
+        color: hsl(167, 40%, 24%);
+    }
+}
 #main6-desc{
     font-weight: 600;
     font-family: 'Barlow', sans-serif;
@@ -197,6 +271,19 @@ h2{
     z-index: 5;
     text-align: center;
     color: hsl(198, 62%, 26%);
+}
+
+@media only screen and (max-width: 576px){
+    #main7-title{
+        position: absolute;
+        top: 350px;
+        left: 15%;
+        font-size: 20px;
+        width: 400px;
+        z-index: 5;
+        text-align: center;
+        color: hsl(167, 40%, 24%);
+    }
 }
 #main7-desc{
     font-weight: 600;
@@ -252,10 +339,11 @@ h2{
     left: -4px;
 }
 #main8{
-    background-color: white;
+    margin-top: 80px;
+    /* background-color: white;
     width: 100vw;
     height: 600px;
-    display: inline-block;
+    display: inline-block; */
 }
 #client1{
     height: 300px;
@@ -265,6 +353,7 @@ h2{
     top: 20%;
     left: 17%;
     display: inline-block;
+    margin-top: 40px;
 }
 #client2{
     height: 300px;
@@ -303,16 +392,9 @@ h2{
     margin-top: -4px;
 }
 #main9{
-    background-image: url(images/desktop/image-gallery-milkbottles.jpg);
-    background-size: cover;
-    width: 24.46vw;
-    height: 600px;
-    display: inline-block;
-    position: relative;
-    top: -4px;
-    right: -4px;
+ margin-top: 150px;
 }
-#main10{
+/* #main10{
     background-image: url(images/desktop/image-gallery-orange.jpg);
     background-size: cover;
     width: 24.46vw;
@@ -341,13 +423,34 @@ h2{
     position: relative;
     top: -4px;
     left: -6px; 
-}
+} */
+
+
 footer{
     width: 100vw;
     height: 350px;
     background-color: hsl(168, 37%, 60%);
     position: relative;
     top: -8px;
+}
+
+@media only screen and (max-width: 576px) {
+    #footer-nav{
+        position: absolute;
+        top: 38%;
+        left: 34%;
+        color: white
+    }
+    #footer-icons{
+        position: relative;
+        top: 65%;
+        left: 42%;
+        
+    }
+    #footer-icon{
+        margin-right: 16px;
+    }
+
 }
 #footer-icons{
     position: relative;
