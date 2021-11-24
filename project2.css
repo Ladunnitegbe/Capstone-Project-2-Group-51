@@ -25,7 +25,7 @@ body{
 }
 
 .welcome-carousel-image1{
-    background-image: url('/images/desktop/image-header.jpg');
+    background-image: url('images/desktop/image-header.jpg');
 }
 
 .row1{
@@ -33,7 +33,7 @@ body{
     height: 50vh;
 }
 .row1col2{
-    background-image:url(/images/desktop/image-transform.jpg);
+    background-image:url(images/desktop/image-transform.jpg);
     background-size: cover;
 }
 
@@ -43,7 +43,7 @@ body{
     height: 50vh;
 }
 .row2col1{
-    background-image:url(/images/desktop/image-stand-out.jpg);
+    background-image:url(images/desktop/image-stand-out.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50vh;
 }
@@ -54,13 +54,13 @@ body{
 }
 
 .row3col1 {
-    background-image:url(/images/desktop/image-graphic-design.jpg);
+    background-image:url(images/desktop/image-graphic-design.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50vh;
 }
 
 .row3col2{
-    background-image:url(/images/desktop/image-photography.jpg);
+    background-image:url(images/desktop/image-photography.jpg);
     background-repeat: no-repeat;
     background-size: 100% 50vh;
 }
@@ -155,7 +155,7 @@ footer{
 
     }
     .row1col2{
-        background-image:url(/images/mobile/image-transform.jpg);
+        background-image:url(images/mobile/image-transform.jpg);
         background-repeat: no-repeat;
         background-size:cover;
     }
@@ -166,7 +166,7 @@ footer{
 
     }
     .row2col1{
-        background-image:url(/images/mobile/image-stand-out.jpg);
+        background-image:url(images/mobile/image-stand-out.jpg);
         background-repeat: no-repeat;
         background-size:cover;
     }
@@ -185,12 +185,12 @@ footer{
         padding-left: auto;
     }
     .row3col1{
-        background-image:url(/images/desktop/image-graphic-design.jpg);
+        background-image:url(images/desktop/image-graphic-design.jpg);
         background-repeat: no-repeat;
         background-size: 100% 40vh;
     }
     .row3col2{
-        background-image:url(/images/desktop/image-photography.jpg);
+        background-image:url(images/desktop/image-photography.jpg);
         background-repeat: no-repeat;
         background-size: 100% 40vh;
     }
