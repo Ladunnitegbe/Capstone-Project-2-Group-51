@@ -95,9 +95,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
 4. Hanaa Mohammed Kari SH-IT-0092934 https://github.com/HanaMK/
 5. Amole Jesunifemi SH-IT-0028291 https://github.com/darkalpha96
 6. Boluwatife Ladeinde SH-IT-009117 https://github.com/boluwatifeee
-7. OLAMIPOSI HERITAGE OLADOKUN SH-IT-0020074
-8. Ogbonna Chigozie Benjamin SH-IT-0029849
-9. Toluwani Samagbeyi SH-IT-02649
+7. OLAMIPOSI HERITAGE OLADOKUN SH-IT-0020074 https://github.com/Olamiposi-Ini
+8. Ogbonna Chigozie Benjamin SH-IT-0029849 https://github.com/torluwany
+9. Toluwani Samagbeyi SH-IT-02649 https://github.com/torluwany
 
 
 
