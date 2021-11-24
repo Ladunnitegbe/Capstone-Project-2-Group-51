@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunnyside Agency</title>
     <link rel="stylesheet" href="project2.css" type="text/css">
@@ -12,34 +13,36 @@
 </head>
 <body>
     <header>
-        <div class="" id="nav">
+        <div class="container" id="nav">
             
             <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-color  pt-2">
-                <a class="navbar-brand d-inline-flex" href="#">
-                    <img src="images/logo.svg" alt="sunnyside-logo" width="130" height="20" class="d-inline-block align-top" alt="">
-                </a>
-            
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            
-                <div class="collapse navbar-collapse font-weight-bolder" id="navbarCollapse">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item mx-auto"> 
-                            <a href="#" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item mx-auto"> 
-                            <a href="#" class="nav-link">Services</a>
-                        </li>
-                        <li class="nav-item mx-auto"> 
-                            <a href="#" class="nav-link">Project</a>
-                        </li>
-                        <li class="nav-item mx-auto"> 
-                            <button type="submit"class="btn btn-success mb-1">CONTACT</button>
-                        </li>
-                    </ul>
-                        
+                <div class="container container-fluid">    
+                    <a class="navbar-brand d-inline-flex" href="#">
+                        <img src="images/logo.svg" alt="sunnyside-logo" width="130" height="20" class="d-inline-block align-top" alt="">
+                    </a>
+                
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse font-weight-bolder" id="navbarCollapse">
+                        <ul class="nav navbar-nav ml-auto nav1">
+                            <li class="nav-item mx-auto"> 
+                                <a href="#" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item mx-auto"> 
+                                <a href="#" class="nav-link">Services</a>
+                            </li>
+                            <li class="nav-item mx-auto"> 
+                                <a href="#" class="nav-link">Project</a>
+                            </li>
+                            <li class="nav-item mx-auto"> 
+                                <button type="submit"class="btn btn-primary  rounded-pill btn-light mb-1">CONTACT</button>
+                            </li>
+                        </ul>
+                            
+                    </div>
                 </div> 
         
             </nav>
@@ -47,159 +50,189 @@
         </div>
 
     </header>
-    <div id="main1">
-        <div id="logo1">
+
+    <div class="container" role="main">
+        <div class="carousel-inner">
+            <div class="carousel-item active welcome-carousel-image1">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>We are Creatives</h1>
+                        <img src="/images/icon-arrow-down.svg" alt="" height="100px" width="auto">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="container">
+        <div class="row row1">
+            <div class="col-sm-12 col-md-6 text-center my-auto">
+                <h2>Transform your brand</h2>
+                    <p id="main2-desc">We are a full creative agency specializing in helping
+                        brands grow fast. Engage your clients through compelling visuals
+                        that do most of the marketing for you.
+                    </p>
+            </div>
+            <div class="col-sm-12 col-md-6 row1col2">
+                
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row2">
+            <div class="row2col1 col-sm-12 col-md-6 ">
+                
+            </div>
+            <div class="col-sm-12 col-md-6 row2col2 text-center my-auto">
+                <h2>Stand out to the right audience</h2>
+                <p id="main4-desc">Using a collaborative formula of deesigners, researchers,
+                    photographers, videographers and copywriters, we'll build and extend your 
+                    brand in digital places 
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row3">
+            <div class="row3col1 col-sm-12 col-md-6 text-center">
+                <h2>Graphic Design</h2>
+                <p id="main6-desc">Great design makes you memorable. We deliver artwork that 
+                    underscores your brand message and captures potential clients' attention. 
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 row3col2 text-center">
+                    <h2>Photography</h2>
+                    <p id="main7-desc">Increase your credibility by getting the most stunning, high
+                        quality photos that improve your business image. 
+                    </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <h4 id="main8-title">CLIENT TESTIMONIALS</h4>
+        <div class="row row4 text-center d-lg-inline-flex">
+
+            <div id="client1" class="row4col1 col-sm-6 col-lg-4 ">
+                <div >
+                    <img id="client-image" src="images/image-emily.jpg" alt="Emily">
+                </div>
+                <p id="client-comment">
+                    We put our trust in Sunnyside and they delivered, making sure our needs were met 
+                    and deadlines were always hit.
+                </p>
+                <br>
+                <p id="client-name">Emily R.</p>
+                <p id="client-job">Marketing Director</p>
+            </div>
+            <div id="client2" class="row4col1 col-sm-6 col-lg-4">
+                <div >
+                    <img id="client-image" src="images/image-thomas.jpg" alt="Emily">
+                </div>
+                <p id="client-comment">
+                    Sunnyside's enthusiasm coupled with their keen interest in our brand's success made 
+                    it a satisfying and enjoyable experience.
+                </p>
+                <br>
+                <p id="client-name">Thomas S.</p>
+                <p id="client-job">Chief Operating Executive</p>
+            </div>
+            <div id="client3" class="row4col col-sm-6 col-lg-4">
+                <div >
+                    <img id="client-image" src="images/image-jennie.jpg" alt="Emily">
+                </div>
+                <p id="client-comment">
+                    Incredible end result! Our sales increased over 400% when we worked with Sunnyside. 
+                    Highly recommended!
+                </p>
+                <br>
+                <p id="client-name">Jenny F.</p>
+                <p id="client-job">Business Owner</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="main9" class="row">
+            <div class="col col-lg-3 col-6">
+                <img src="images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles" width="110%" height="100%">
+            </div>
+            <div class="col col-lg-3 col-6">
+                <img src="images/desktop/image-gallery-orange.jpg" alt="orangeslice" width="110%" height="100%">
+            </div>
+            <div class="col col-lg-3 col-6">
+                <img src="images/desktop/image-gallery-cone.jpg" alt="icecreamcone" width="110%" height="100%">
+            </div>
+            <div class="col col-lg-3 col-6">
+                <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugarcubes" width="110%" height="100%">
+            </div>
             
         </div>
-        
-    </div>
-
-
-    <div id="landing-page-title" class="container container-fluid container-sm">
-        <h1>WE ARE CREATIVES</h1>
-    </div>
-    <div id="arrow-down" class="">
-        <br>
-        <br>
-        <br>
-        <img src="images/icon-arrow-down.svg" alt="arrow-down">        
-    </div>
-    <section class="grid">
-    <div id="main2">
-        <div id="main2-title">
-            <h2>Transform your brand</h2>
-            <p id="main2-desc">We are a full creative agency specializing in helping
-                brands grow fast. Engage your clients through compelling visuals
-                that do most of the marketing for you.
-            </p>
-            <h2 id="learn-more">LEARN MORE</h2>
-        </div>
     </div>
     
-    <div id="main3">
-        
-    </div>
-    
-    <div id="main4">
-        <div id="main4-title">
-            <h2>Stand out to the right audience</h2>
-            <p id="main4-desc">Using a collaborative formula of deesigners, researchers,
-                photographers, videographers and copywriters, we'll build and extend your 
-                brand in digital places 
-            </p>
-            <h2 id="learn-more2">LEARN MORE</h2>
-        </div>
-    </div>
-    
-    <div id="main5">
-        
-    </div>
-    
-    <div id="main6">
-        <div id="main6-title">
-            <h2>Graphic Design</h2>
-            <p id="main6-desc">Great design makes you memorable. We deliver artwork that 
-                underscores your brand message and captures potential clients' attention. 
-            </p>
-        </div>   
-    </div>
-    
-    <div id="main7">
-        <div id="main7-title">
-            <h2>Photography</h2>
-            <p id="main7-desc">Increase your credibility by getting the most stunning, high
-                quality photos that improve your business image. 
-            </p>
-        </div>
-    </div>
-    </section>
-    <div id="main8">
-        <h4 id="main8-title">CLIENT TESTIMONIALS</h4>
-        <div id="client1">
-            <div >
-                <img id="client-image" src="images/image-emily.jpg" alt="Emily">
+    <!-- <footer>
+        <div class="contianer">
+            <div id="logo2" class="row align-content-center">
+                <img id="logo22" src="images/logo.svg" alt="sunnyside-logo">
+            </div> 
+            
+            <div id="footer-nav" class="row">
+                <span id="footer-item">About</span>
+                <span id="footer-item">Services</span>
+                <span id="footer-item">Project</span>
             </div>
-            <p id="client-comment">
-                We put our trust in Sunnyside and they delivered, making sure our needs were met 
-                and deadlines were always hit.
-            </p>
-            <br>
-            <p id="client-name">Emily R.</p>
-            <p id="client-job">Marketing Director</p>
-        </div>
-        <div id="client2">
-            <div >
-                <img id="client-image" src="images/image-thomas.jpg" alt="Emily">
+            <div id="footer-icons" class="row">
+                <img id="footer-icon" src="images/icon-facebook.svg" alt="facebook">
+                <img id="footer-icon" src="images/icon-instagram.svg" alt="instagram">
+                <img id="footer-icon" src="images/icon-twitter.svg" alt="twitter">
+                <img id="footer-icon" src="images/icon-pinterest.svg" alt="pinterest">
             </div>
-            <p id="client-comment">
-                Sunnyside's enthusiasm coupled with their keen interest in our brand's success made 
-                it a satisfying and enjoyable experience.
-            </p>
-            <br>
-            <p id="client-name">Thomas S.</p>
-            <p id="client-job">Chief Operating Executive</p>
         </div>
-        <div id="client3">
-            <div >
-                <img id="client-image" src="images/image-jennie.jpg" alt="Emily">
-            </div>
-            <p id="client-comment">
-                Incredible end result! Our sales increased over 400% when we worked with Sunnyside. 
-                Highly recommended!
-            </p>
-            <br>
-            <p id="client-name">Jenny F.</p>
-            <p id="client-job">Business Owner</p>
-        </div>
-    </div>
-    
-    <!--<div id="main9">
+    </footer> -->
 
-    </div>
-    
-    <div id="main10">
 
-    </div>
+    <div class="container">
     
-    <div id="main11">
+        <footer class="page-footer font-small stylish-color-dark pt-4">
 
-    </div>
     
-    <div id="main12">
-
-    </div> -->
-    <div class="row">
-        <div class="column">
-            <img src="images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles">
-        </div>
-        <div class="column">
-            <img src="images/desktop/image-gallery-orange.jpg" alt="orangeslice">
-        </div>
-        <div class="column">
-            <img src="images/desktop/image-gallery-cone.jpg" alt="icecreamcone">
-        </div>
-        <div class="column">
-            <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugarcubes">
-        </div>
+            <div class="container text-center text-md-left">
         
+            
+            <div class="row">
+        
+                
+                <div class="col-12 mx-auto">
+                    <div id="logo2" class="col-6 footer-logo pl-5">
+                        <img id="logo22" src="images/logo.svg" alt="sunnyside-logo">
+                    </div>
+        
+                        <hr>
+
+                            <div id="footer-nav" class="col-6 pl-5">
+                                <span id="footer-item">About</span>
+                                <span id="footer-item">Services</span>
+                                <span id="footer-item">Project</span>
+                            </div>
+                        <hr>
+                    
+                        <div class="footer-link text-center py-3 col-6">
+                            <div id="footer-icons" class="footer-link">
+                                <img id="footer-icon" src="images/icon-facebook.svg" alt="facebook">
+                                <img id="footer-icon" src="images/icon-instagram.svg" alt="instagram">
+                                <img id="footer-icon" src="images/icon-twitter.svg" alt="twitter">
+                                <img id="footer-icon" src="images/icon-pinterest.svg" alt="pinterest">
+                            </div>
+                        
+                        </div>
+                </div>
+        </footer>
+  
     </div>
-    
-    <footer>
-        <div id="logo2">
-            <img id="logo22" src="images/logo.svg" alt="sunnyside-logo">
-        </div> 
-        <div id="footer-nav">
-            <span id="footer-item">About</span>
-            <span id="footer-item">Services</span>
-            <span id="footer-item">Project</span>
-        </div>
-        <div id="footer-icons">
-            <img id="footer-icon" src="images/icon-facebook.svg" alt="facebook">
-            <img id="footer-icon" src="images/icon-instagram.svg" alt="instagram">
-            <img id="footer-icon" src="images/icon-twitter.svg" alt="twitter">
-            <img id="footer-icon" src="images/icon-pinterest.svg" alt="pinterest">
-        </div>
-    </footer>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="bootstrap.js"></script>
 </body>
