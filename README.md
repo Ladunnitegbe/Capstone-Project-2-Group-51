@@ -49,7 +49,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/Ladunnitegbe/Capstone-Project-2-Group-51/edit/main/README.mdhttps://github.com/Ladunnitegbe/Capstone-Project-2-Group-51/edit/main/README.md
+- Solution URL: https://github.com/Ladunnitegbe/Capstone-Project-2-Group-51/edit/main/README.md
 - Live Site URL: https://ladunnitegbe.github.io/Capstone-Project-2-Group-51/
 - Writeup link: https://medium.com/@hanamkari/learning-experience-at-sidehustle-internship-cohort-4-0-d2e4452d2eed
 
